@@ -1,0 +1,250 @@
+body {
+    font-family: 'Ubuntu', sans-serif;
+    margin: 0;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Oswald', sans-serif;
+    font-weight: 500;
+    /*font-style: italic;*/
+}
+
+h1 {
+    font-size: 40px;
+    line-height: 150%;
+    letter-spacing: -.3px;
+    color: #FFFFFF;
+    margin: 0;
+    /*text-transform: uppercase;*/
+    /*text-decoration: dashed;*/
+}
+
+h1 strong {
+    color: #00A8E8;
+}
+
+.hero {
+    height: 300px;
+    /*background-image: url(../images/image-portada.jpg);*/
+    background-color: #00171F;
+    /*background-size: 500px 300px;*/
+    /*background-repeat: no-repeat;*/
+    /*background-position-x: right;*/
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.hero-image {
+    object-fit: cover;
+}
+
+.project {
+    /*border-top: 10px solid #00171F;
+    border-right: 10px solid #00171F;
+    border-left: 10px solid #00171F;
+    border-bottom: 10px solid #00171F;*/
+    border: 1px solid gray;
+    border-radius: 10px;
+    margin: 10px;
+    margin-bottom: 15px;
+    padding: 20px;
+    background: #FFFFFF;
+    display: flex;
+    justify-content: space-between;
+}
+
+.project-list-detail {
+    margin-left: 20px;
+}
+
+.project-details {
+    width: 500px;
+}
+
+.img-projectContainer {
+    width: 500px;
+}
+
+.header {
+    background-color: #00171F;
+    font-weight: bold;
+    color: #FFFFFF;
+    display: flex;
+    justify-content: space-between;
+    height: 70px;
+    align-items: center;
+}
+
+.header, nav {
+    align-items: center;
+}
+.menu {
+    height: inherit;
+}
+
+.header ol {
+    display: flex;
+    height: inherit;
+}
+
+.header ol li {
+    height: inherit;
+}
+
+.header a {
+    display: flex;
+    align-items: center;
+    height: inherit;
+    padding: 0 10px;
+}
+
+ol, ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+figure {
+    margin: 0;
+}
+
+.header a {
+    font-weight: bold;
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
+.footer {
+    background-color: #00171F;
+    color: #FFFFFF;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.footer a {
+    color: #FFFFFF;
+}
+
+.event-list {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.event {
+    margin: 10px;
+    width: 480px;
+    border-radius: 10px;
+    overflow: hidden;
+    flex-shrink: 0;
+    background-color: #00A8E8;
+}
+
+.event img {
+    width: 480px;
+    height: 200px;
+    object-fit: cover;
+}
+
+.event-detail {
+    margin: 20px 40px;
+    background-color: #FFFFFF;
+    margin-top: -55px;
+    position: relative;
+    padding: 20px;
+    text-align: center;
+}
+
+.description-event {
+    text-align: left;
+}
+
+.url-event {
+    border: 1px solid #00A8E8;
+    padding: 5px 20px;
+    text-decoration: none;
+    color: #00A8E8;
+    border-radius: 5px;
+}
+
+.event-list-title {
+    margin-left: 20px;
+}
+
+.contact {
+    background-color: #00A8E8;
+    color: #FFFFFF;
+    height: 180px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.social {
+
+}
+
+.social-link {
+    display: inline-block;
+    width: 50px;
+    height: 50px;
+    background-size: 50px 50px;
+    margin: 0 10px;
+}
+
+.social-link.twitter {
+    background-image: url(..//images/twitter.png);
+}
+
+.social-link.facebook {
+    background-image: url(..//images/facebook.png);
+}
+
+.social-link.instagram {
+    background-image: url(..//images/instagram.png);
+}
+
+.social-link.github {
+    background-image: url(..//images/github.png);
+}
+
+.form-email input{
+    border-color: gray;
+    border-style: solid;
+    border-radius: 5px;
+    padding: 10px 20px 10px 25px;
+    background-image: url(..//images/email.png);
+    background-size: 15px 15px;
+    background-repeat: no-repeat;
+    background-position-y: center;
+    background-position-x: 5px;
+}
+
+.form-email button {
+    display: block;
+    margin-top: 10px;
+    background: transparent;
+    color: #FFFFFF;
+    padding: 5px 0px;
+    border: 1px solid white;
+    border-radius: 5px;
+    width: 100px;
+    margin-top: 10px;
+}
+
+.form-email h3 {
+    font-family: 'Oswald', sans-serif;
+}
+
+.container {
+    width: 1000px;
+    margin: 0 auto;
+    display: inherit;
+    justify-content: inherit;
+    align-items: inherit;
+    height: inherit;
+    flex-wrap: inherit;
+}
+
+
